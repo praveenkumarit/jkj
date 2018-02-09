@@ -10,7 +10,7 @@ int main()
         if(isspace(a[i]))
       
         l++;
-    printf("%d",l);
+    printf("%d",l+1);
        
     
     return 0;
