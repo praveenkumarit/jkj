@@ -1,12 +1,14 @@
 #include<stdio.h>
 int main()
 {
-int a;
-scanf("%d",&a);
+char a;
+scanf("%s",&a);
 if((a=='a')||(a=='e')||(a=='i')||(a=='o')||(a=='u'))
 {
-printf("%d is vowles ",a);
+printf(" is vowles ");
+}
 else
+{
 printf("in is consonant");
 }
 return 0;
